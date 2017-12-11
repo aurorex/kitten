@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+	.image-background{
+	  background-image: url("../assets/img/night.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+	}
+
+	.kitten-small{
+		position: absolute;
+		width: 50%;
+        height:300px;
+        top: 300px;
+        left: 25%;
+        
+	}
+	.none-medium{
+		display: none;
+	}
+	.none-large{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.image-background{
+	  background-image: url("../assets/img/sunny-day.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+	}
+
+	.kitten-medium{
+		position: absolute;
+		width: 50%;
+        height:250px;
+        top: 250px;
+        left: 25%;
+        
+	}
+	.none-small{
+		display: none;
+    }
+    .none-large{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.image-background{
+	  background-image: url("../assets/img/dawn.png");
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+	}
+
+	.kitten-large{
+		position: absolute;
+		width: 60%;
+        height:300px;
+        top: 320px;
+        left: 20%;    
+	}
+	.none-small{
+		display: none;
+    }
+    .none-medium{
+		display: none;
+	}
+}
+
+
+
